@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Space]
-    [SerializeField] private float speed = 2;
+    [SerializeField] private float speed = 5;
 
     private Vector3 startMousePos = Vector3.zero;
     private Vector3 deltaMousePos = Vector3.zero;

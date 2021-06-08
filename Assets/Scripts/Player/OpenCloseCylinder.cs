@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class CheckPlayerState : PlayerController
+public class OpenCloseCylinder : PlayerController
 {
     private void Update()
     {
@@ -34,11 +34,11 @@ public class CheckPlayerState : PlayerController
 
     private void CylinderScaleUp()
     {
-        this.transform.DOScaleY(0.05f, 2);
+        this.transform.DOScaleY(0.05f, 1);
     }
 
     private void CylinderScaleDown()
     {
-        this.transform.DOScaleY(0, 2);
+        this.transform.DOScaleY(0, 1);
     }
 }
